@@ -907,7 +907,7 @@ Orange -> Too little quantity available.'''
                   part.qty_avail[dist], wrk_formats['part_format'])
         else:
             wks.write(row, start_col + columns['avail']['col'],
-                '0', wrk_formats['not_stocked'])
+                'NoStock', wrk_formats['not_stocked'])
             wks.write_comment(row, start_col + columns['avail']['col'], 
                 'This part is listed but is not normally stocked.')
 
