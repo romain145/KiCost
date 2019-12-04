@@ -37,8 +37,8 @@ distributors_info = {
     'farnell': {
         'type': 'web',
         'order': {
-            'cols': ['part_num', 'purch', 'refs'],
-            'delimiter': ' ', 'not_allowed_char': ' ', 'replace_by_char': ';',
+            'cols': ['part_num', 'purch', 'comment', 'refs'],
+            'delimiter': ', ', 'not_allowed_char': ' ', 'replace_by_char': ';',
         },
         'label': {
             'name': 'Farnell', 'url': 'https://www.newark.com/',
